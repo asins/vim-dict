@@ -23,10 +23,10 @@ VIM字典仓库
 
 然后在你的`_vimrc`或/`.vimrc`中加入以下内容
 
-	autocmd filetype javascript set dictionary+=$VIMFILES/dict/javascript.dic
-	autocmd filetype javascript set dictionary+=$VIMFILES/dict/node.dic
-	autocmd filetype css set dictionary+=$VIMFILES/dict/css.dic
-	autocmd filetype php set dictionary+=$VIMFILES/dict/php.dic
+	autocmd filetype javascript set dictionary+=$VIMFILES/bundle/vim-dict/dict/javascript.dic
+	autocmd filetype javascript set dictionary+=$VIMFILES/bundle/vim-dict/dict/node.dic
+	autocmd filetype css set dictionary+=$VIMFILES/bundle/vim-dict/dict/css.dic
+	autocmd filetype php set dictionary+=$VIMFILES/bundle/vim-dict/dict/php.dic
 
 使用方法
 ---------
