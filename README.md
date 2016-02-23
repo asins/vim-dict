@@ -1,7 +1,7 @@
-VIM ×Öµä²Ö¿â
+VIM å­—å…¸ä»“åº“
 ============
 
-°üº¬ÒÔÏÂÓïÑÔ´Ê¿â£º
+åŒ…å«ä»¥ä¸‹è¯­è¨€è¯åº“ï¼š
 
  - c.dic
  - context.dic
@@ -32,40 +32,40 @@ VIM ×Öµä²Ö¿â
  - xslt.dic
  - zsh.dic
 
-¿âÖĞºÜ´ó²¿·Ö´Ê¿âÀ´Ô´ÓÚ [https://github.com/Firef0x/vimfiles.git]()£¬¸ĞĞ»£¡
+åº“ä¸­å¾ˆå¤§éƒ¨åˆ†è¯åº“æ¥æºäº [https://github.com/Firef0x/vimfiles.git]()ï¼Œæ„Ÿè°¢ï¼
 
 
-°²×°
+å®‰è£…
 ----
 
-**Vundle** ·½Ê½°²×°
+**Vundle** æ–¹å¼å®‰è£…
 
-ÔÚ`_vimrc`»ò /`.vimrc`ÖĞ¼ÓÈë
+åœ¨`_vimrc`æˆ– /`.vimrc`ä¸­åŠ å…¥
 
 	Bundle 'asins/vim-dict'
 
-ÖØÆô VIM ºóÔËĞĞ`:BundleInstall`¾ÍÄÜÍê³É°²×°ÁË¡£
+é‡å¯ VIM åè¿è¡Œ`:BundleInstall`å°±èƒ½å®Œæˆå®‰è£…äº†ã€‚
 
-**³£¹æ** ·½Ê½°²×°
+**å¸¸è§„** æ–¹å¼å®‰è£…
 
-½« dict Ä¿Â¼ÒÆ¶¯µ½`$VIM/vimfiles`Ä¿Â¼¡£
+å°† dict ç›®å½•ç§»åŠ¨åˆ°`$VIM/vimfiles`ç›®å½•ã€‚
 
-È»ºóÔÚÄãµÄ`_vimrc`»ò /`.vimrc`ÖĞ¼ÓÈëÒÔÏÂÄÚÈİ
+~~ç„¶ååœ¨ä½ çš„`_vimrc`æˆ– /`.vimrc`ä¸­åŠ å…¥ä»¥ä¸‹å†…å®¹~~ï¼Œå·²é›†æˆè‡ªåŠ¨è½½å…¥å¯¹åº” fileType ç±»å‹çš„å­—å…¸æ–‡ä»¶åŠŸèƒ½ï¼Œæ— éœ€åœ¨`.vimrc`ä¸­è®¾ç½®ã€‚
 
 	autocmd filetype javascript set dictionary+=$VIMFILES/bundle/vim-dict/dict/javascript.dic
 	autocmd filetype javascript set dictionary+=$VIMFILES/bundle/vim-dict/dict/node.dic
 	autocmd filetype css set dictionary+=$VIMFILES/bundle/vim-dict/dict/css.dic
 	autocmd filetype php set dictionary+=$VIMFILES/bundle/vim-dict/dict/php.dic
 
-Ê¹ÓÃ·½·¨
+ä½¿ç”¨æ–¹æ³•
 ---------
 
-ÔÚÊäÈëÄ£Ê½ÏÂ°´`<ctrl-x>_<ctrl-k>`¼´¿É¿´µ½ÌáÊ¾ÄÚÈİÁË
+åœ¨è¾“å…¥æ¨¡å¼ä¸‹æŒ‰`<ctrl-x>_<ctrl-k>`å³å¯çœ‹åˆ°æç¤ºå†…å®¹äº†
 
 
 TODO
 -----
 
-  - javascript ÒªÖØĞÂÕûÀíÒ»·İ£¬Ä¿Ç°È±ÉÙºÜ¶à EC 5.0 µÄÄÚÈİ
+  - javascript è¦é‡æ–°æ•´ç†ä¸€ä»½ï¼Œç›®å‰ç¼ºå°‘å¾ˆå¤š EC 5.0 çš„å†…å®¹
 
 
