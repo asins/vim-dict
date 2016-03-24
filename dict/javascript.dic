@@ -71,6 +71,7 @@ applets
 apply
 arguments
 arity
+as
 asin
 assign
 atan
@@ -267,6 +268,8 @@ forward
 frame
 frameElement
 frames
+freeze
+from
 fromCharCode
 fromElement
 function
