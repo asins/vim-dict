@@ -350,6 +350,8 @@ instanceof
 isChar
 isCollapsed
 isFinite
+isInteger
+isSafeInteger
 isMap
 isNaN
 isPrototypeOf
@@ -635,6 +637,7 @@ setYear
 shift
 shiftKey
 sidebar
+sign
 sin
 sizeToContent
 slice
@@ -703,8 +706,10 @@ toUpperCase
 toolbar
 top
 true
+trunc
 try
 type
+trunc
 typeof
 undefined
 unescape
