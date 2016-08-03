@@ -9,10 +9,10 @@ let s:dictDirPath = expand('<sfile>:p:h:h?\\?/?').'/dict/'
 function! AutoLoadDict()
 	if(&filetype != '')
 		let a:dictPath = s:dictDirPath.&filetype.'.dic'
-
-		" 未加载 && 字典存在
+		
+    " 未加载 && 字典存在
 		if strridx(&dictionary, a:dictPath) < 0 && findfile(a:dictPath) != ''
-			silent execute 'setlocal dictionary+='.a:dictPath
+			silent execute 'setlocal dictionary+='.fnameescape(a:dictPath)
 		endif
 	endif
 endfunction
