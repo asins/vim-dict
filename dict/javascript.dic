@@ -1,4 +1,3 @@
-TEXT_NODE
 ActiveXObject
 Array
 Boolean
@@ -32,6 +31,7 @@ SQRT1_2
 SQRT2
 String
 SyntaxError
+TEXT_NODE
 TypeError
 URIError
 URL
@@ -74,6 +74,7 @@ arity
 as
 asin
 assign
+async
 atan
 atan2
 atob
@@ -83,6 +84,7 @@ availHeight
 availLeft
 availTop
 availWidth
+await
 back
 backgroundColor
 bgColor
@@ -135,8 +137,8 @@ charCodeAt
 characterSet
 charset
 childElementCount
-children
 childNodes
+children
 className
 clear
 clearInterval
@@ -160,6 +162,7 @@ colorDepth
 compatMode
 complete
 concat
+configurable
 confirm
 console
 const
@@ -198,6 +201,7 @@ default
 defaultCharset
 defaultStatus
 defaultView
+defineProperty
 delegate
 delete
 deleteCaption
@@ -227,6 +231,7 @@ encodeURI
 encodeURIComponent
 encoding
 enctype
+enumerable
 escape
 eval
 evaluate
@@ -351,10 +356,10 @@ isChar
 isCollapsed
 isFinite
 isInteger
-isSafeInteger
 isMap
 isNaN
 isPrototypeOf
+isSafeInteger
 italics
 item
 javaEnabled
@@ -536,7 +541,6 @@ prependTo
 preventBubble
 preventCapture
 preventDefault
-preventDefault
 previousElementSibling
 previousSibling
 print
@@ -658,10 +662,10 @@ status
 statusbar
 stop
 stopPropagation
+strict
 strike
 stringify
 style
-styleSheets
 styleSheets
 sub
 submit
@@ -709,7 +713,6 @@ true
 trunc
 try
 type
-trunc
 typeof
 undefined
 unescape
@@ -718,10 +721,12 @@ unshift
 unwatch
 updateCommands
 updateInterval
+use
 useMap
 userAgent
 userLanguage
 userProfile
+value
 valueOf
 var
 vendor
@@ -737,5 +742,6 @@ while
 width
 window
 with
+writable
 write
 writeln
