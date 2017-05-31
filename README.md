@@ -31,7 +31,7 @@
  - xslt.dic
  - zsh.dic
 
-库中很大部分词库来源于 [https://github.com/Firef0x/vimfiles.git]()，感谢！
+库中很大部分词库来源于 <https://github.com/Firef0x/vimfiles.git>，感谢！
 
 
 ## 安装
