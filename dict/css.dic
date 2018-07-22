@@ -1,4 +1,5 @@
 :above-level
+absolute
 accelerator
 accesskey
 :active
@@ -687,6 +688,7 @@ repeating-radial-gradient()
 ::repeat-item
 replace
 :required
+relative
 resize
 resolution
 resolution @?
@@ -985,3 +987,4 @@ writing-mode
 ::xul-anonymous-block
 z-index
 zoom
+
