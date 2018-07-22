@@ -183,6 +183,7 @@ column-rule-width
 columns
 column-span
 column-width
+contain
 :contains()
 content
 content-zoom-chaining
@@ -199,6 +200,7 @@ counter-increment
 counter-reset
 counters()
 @counter-style
+cover
 crop
 cross-fade()
 cubic-bezier()
