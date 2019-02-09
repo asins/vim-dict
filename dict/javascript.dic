@@ -351,6 +351,7 @@ insertAfter
 insertBefore
 insertRow
 insertRule
+insertAdjacentHTML
 instanceof
 isChar
 isCollapsed
