@@ -2,19 +2,49 @@
 "
 " Author: Asins (http://nootn.com)
 " Last Modified: 2016-02-23 17:53 (+0800)
+" Update Modified: 2019-02-11 10:33 (+0800)
+" 可在_vimrc文件中指定伴随字典，如
+" let g:vim_dict_config = {
+" \ 'html': ['css', 'javascript']
+" \ 'javascript': ['jsx'],
+" \}
+" 插件默认自动对html格式文件关联css javascript两个字典
 
 " <sfile> = vim-dict/autoload 需回到上层目录
 let s:dictDirPath = expand('<sfile>:p:h:h?\\?/?').'/dict/'
 
-function! AutoLoadDict()
-	if(&filetype != '')
-		let a:dictPath = s:dictDirPath.&filetype.'.dic'
-		
-    " 未加载 && 字典存在
-		if strridx(&dictionary, a:dictPath) < 0 && findfile(a:dictPath) != ''
-			silent execute 'setlocal dictionary+='.fnameescape(a:dictPath)
-		endif
+" 默认配置
+let s:defaultConfigMap = {
+\  'html': ['css', 'javascript'],
+\}
+
+
+if exists('g:vim_dict_config')
+  call extend(g:vim_dict_config, s:defaultConfigMap, 'keep')
+else
+  let g:vim_dict_config = s:defaultConfigMap
+endif
+
+function! s:AutoLoadDict(filetype)
+  let a:dictPath = s:dictDirPath.a:filetype.'.dic'
+  " 未指定文件类型 || 已加载
+	if a:filetype == '' || strridx(&dictionary, a:dictPath) >= 0
+    return
 	endif
+
+  " 字典存在
+  if findfile(a:dictPath) != ''
+    " echo 'load fileType:'.a:filetype 'path:'.a:dictPath
+    silent execute 'setlocal dictionary+='.fnameescape(a:dictPath)
+  endif
+
+  let a:childFileTypeList = get(g:vim_dict_config, a:filetype, [])
+  " echo 'a:childFileTypeList == ' a:childFileTypeList
+  for nr in a:childFileTypeList
+    call s:AutoLoadDict(nr)
+  endfor
 endfunction
 
-autocmd FileType * call AutoLoadDict()
+autocmd FileType * call s:AutoLoadDict(&filetype)
+
+

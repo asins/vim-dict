@@ -4,7 +4,7 @@
 
  - c.dic
  - context.dic
- - cpp.dic@	 --> c.dic
+ - cpp.dic@ --> c.dic
  - cs.dic
  - css.dic
  - dot.dic
@@ -22,12 +22,12 @@
  - python.dic
  - ruby.dic
  - scss.dic
- - sh.dic@	 --> zsh.dic
+ - sh.dic@ --> zsh.dic
  - snippet.dic
  - tex.dic
  - vim.dic
  - wiki.dic
- - xhtml.dic@	 --> html.dic
+ - xhtml.dic@ --> html.dic
  - xslt.dic
  - zsh.dic
 
@@ -36,13 +36,13 @@
 
 ## 安装
 
-**Vundle** 方式安装
+**vim-plug** 方式安装
 
 在`_vimrc`或 /`.vimrc`中加入
 
-	Bundle 'asins/vim-dict'
+	Plug 'asins/vim-dict'
 
-重启 VIM 后运行`:BundleInstall`就能完成安装了。
+重启 VIM 后运行`:PlugInstall`就能完成安装了。`Vundle`等插件的使用方式也是差不多的，不一一写了。
 
 **常规** 方式安装
 
@@ -55,6 +55,17 @@
 
 在输入模式下按`<ctrl-x>_<ctrl-k>`即可看到提示内容了
 
+## 配置
+
+有些时候提示并不是独立一种语言，比如`html`文件一般会伴随着`js`以及`css`代码，可，所以支持在_vimrc 文件中添加`g:vim_dict_config`设置，用于给特定格式指定伴随字典，格式如：
+
+```vim
+let g:vim_dict_config = {
+\ 'html': ['css', 'javascript']
+\ 'javascript': ['jsx'],
+\}
+```
+插件默认对 `html` 格式文件关联 `css` `javascript` 两个字典，当然你可以覆盖设定。
 
 
 
