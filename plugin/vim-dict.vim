@@ -26,21 +26,21 @@ else
 endif
 
 function! s:AutoLoadDict(filetype)
-  let a:dictPath = s:dictDirPath.a:filetype.'.dic'
+  let s:dictPath = s:dictDirPath.a:filetype.'.dic'
   " 未指定文件类型 || 已加载
-	if a:filetype == '' || strridx(&dictionary, a:dictPath) >= 0
+	if a:filetype == '' || strridx(&dictionary, s:dictPath) >= 0
     return
 	endif
 
   " 字典存在
-  if findfile(a:dictPath) != ''
-    " echo 'load fileType:'.a:filetype 'path:'.a:dictPath
-    silent execute 'setlocal dictionary+='.fnameescape(a:dictPath)
+  if findfile(s:dictPath) != ''
+    " echo 'load fileType:'.a:filetype 'path:'.s:dictPath
+    silent execute 'setlocal dictionary+='.fnameescape(s:dictPath)
   endif
 
-  let a:childFileTypeList = get(g:vim_dict_config, a:filetype, [])
-  " echo 'a:childFileTypeList == ' a:childFileTypeList
-  for nr in a:childFileTypeList
+  let s:childFileTypeList = get(g:vim_dict_config, a:filetype, [])
+  " echo 's:childFileTypeList == ' s:childFileTypeList
+  for nr in s:childFileTypeList
     call s:AutoLoadDict(nr)
   endfor
 endfunction
