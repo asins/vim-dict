@@ -42,11 +42,9 @@
 ::scrolled-content
 ::scrolled-page-sequence
 ::selection
-::selection
 ::slot()
 ::svg-foreign-content
 ::table
-::table-cell
 ::table-cell
 ::table-column
 ::table-column-group
@@ -184,7 +182,6 @@
 @region
 @string
 @supports
-@viewport
 @viewport
 Hz
 absolute
@@ -411,7 +408,6 @@ fit
 fit-position
 flavor
 flex
-flex
 flex-align
 flex-basis
 flex-direction
@@ -502,7 +498,6 @@ hyphens
 icon
 image()
 image-orientation
-image-orientation
 image-rect()
 image-region()
 image-rendering
@@ -582,7 +577,6 @@ marker-end
 marker-mid
 marker-start
 marks
-marquee
 marquee
 marquee-dir
 marquee-direction
@@ -759,7 +753,6 @@ rgba()
 richness
 right
 rotate()
-rotate3D()
 rotate3d()
 rotateX()
 rotateY()
@@ -814,12 +807,8 @@ separator-image
 set-link-source
 shape-image-threshold
 shape-inside
-shape-inside
-shape-margin
 shape-margin
 shape-outside
-shape-outside
-shape-padding
 shape-padding
 shape-rendering
 size
