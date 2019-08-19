@@ -41,7 +41,7 @@ function! s:AutoLoadDict(filetype)
   let s:childFileTypeList = get(g:vim_dict_config, a:filetype, [])
   " echo 's:childFileTypeList == ' s:childFileTypeList
   for nr in s:childFileTypeList
-    call s:AutoLoadDict(nr)
+    silent call s:AutoLoadDict(nr)
   endfor
 endfunction
 
