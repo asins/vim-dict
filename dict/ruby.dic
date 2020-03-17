@@ -610,7 +610,7 @@ author=
 authors
 authors=
 auto_indent_mode
-autocapitalizationType 
+autocapitalizationType
 autoclose=
 autoclose?
 autoload
@@ -648,7 +648,7 @@ basic_quote_characters
 basic_quote_characters=
 basic_word_break_characters
 basic_word_break_characters=
-be_blank 
+be_blank
 before
 before_create
 before_filter
@@ -715,7 +715,7 @@ body_stream=
 bool
 boolean
 boolean_writer
-borderStyle 
+borderStyle
 both?
 bottom
 bound?
@@ -1283,7 +1283,7 @@ d_o_s
 daemon
 data
 data=
-dataSource 
+dataSource
 data_type
 datadir
 date
@@ -2489,7 +2489,7 @@ header_converters
 header_row?
 headers
 headers=
-height 
+height
 height=
 helo
 help
@@ -5090,7 +5090,7 @@ sysverify
 syswrite
 syswrite_nonblock
 t
-tabBarItem 
+tabBarItem
 tab_width
 table
 table_of_contents
@@ -5219,7 +5219,7 @@ test_start_accepting
 text
 text=
 text?
-textAlignment 
+textAlignment
 textColor
 textFieldShouldReturn
 textLabel
@@ -5654,7 +5654,7 @@ version_1_2?
 versions
 vi_editing_mode
 vi_editing_mode?
-viewControllers 
+viewControllers
 viewDidLoad
 viewer
 virtual_host

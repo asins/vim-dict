@@ -6,9 +6,11 @@
  - context.dic
  - cpp.dic@ --> c.dic
  - cs.dic
+ - cmake.dic
  - css.dic
  - dot.dic
  - erlang.dic
+ - go.dic
  - haskell.dic
  - html.dic
  - java.dic
@@ -33,7 +35,7 @@
  - zsh.dic
 
 库中很大部分词库来源于 <https://github.com/Firef0x/vimfiles.git>，感谢！
-
+**Update 2020-03-17:** 从<https://github.com/jayli/vim-dictionary>中同步了字典，感谢！
 
 ## 安装
 

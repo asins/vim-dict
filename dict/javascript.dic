@@ -1,748 +1,682 @@
-ActiveXObject
-Array
-Boolean
-Components
-DOM
-DOMMouseScroll
-Date
-Error
-EvalError
-FileReader
-Function
-Image
-Infinity
-LN10
-LN2
-LOG10E
-LOG2E
-MAX_VALUE
-MIN_VALUE
-Math
-NEGATIVE_INFINITY
-NaN
-Number
-Object
-PI
-POSITIVE_INFINITY
-RangeError
-ReferenceError
-RegExp
-SQRT1_2
-SQRT2
-String
-SyntaxError
-TEXT_NODE
-TypeError
-URIError
-URL
-UTC
-XMLHttpRequest
-__defineGetter__
-__defineSetter__
-__lookupGetter__
-__lookupSetter__
-_content
-abs
-acceptCharset
-accessKeyLabel
-acos
-action
-addClass
-addEventListener
-addRange
-alert
-align
-alinkColor
-all
-alt
-altKey
-anchor
-anchorNode
-anchorOffset
-anchors
-appCodeName
-appMinorVersion
-appName
-appVersion
-append
-appendChild
-appendTo
-applets
-apply
-arguments
-arity
-as
-asin
-assign
-async
-atan
-atan2
-atob
-attachEvent
-attributes
-availHeight
-availLeft
-availTop
-availWidth
-await
-back
-backgroundColor
-bgColor
-bgColorDeprecated
-big
-blink
-blur
-body
-bold
-border
-borderBottom
-borderBottomColor
-borderBottomStyle
-borderBottomWidth
-borderColor
-borderLeft
-borderLeftColor
-borderLeftStyle
-borderLeftWidth
-borderRight
-borderRightColor
-borderRightStyle
-borderRightWidth
-borderStyle
-borderTop
-borderTopColor
-borderTopStyle
-borderTopWidth
-borderWidth
-break
-browserLanguage
-btoa
-bubbles
-bufferDepth
-button
-call
-caller
-cancelBubble
-cancelable
-caption
-captureEvents
-case
-catch
-ceil
-cellPadding
-cellSpacing
-charAt
-charCode
-charCodeAt
-characterSet
-charset
-childElementCount
-childNodes
+abort
+add
+addContext
+addListener
+addMembership
+addTrailers
+address
+appendFile
+appendFileSync
+arch
+argv
+assert
+authorizationError
+authorized
+bar
+basename
+bind
+buffer
+bufferSize
+byteLength
+bytesRead
+bytesWritten
+cache
+change
+chdir
+checkContinue
 children
-className
-clear
+chmod
+chmodSync
+chown
+chownSync
+clearImmediate
 clearInterval
 clearTimeout
-click
-clientHeight
-clientLeft
-clientTop
-clientWidth
-clientX
-clientY
-cloneNode
+clientError
 close
-closed
-closest
-collapse
-collapseToEnd
-collapseToStart
-color
-colorDepth
-compatMode
-complete
+closeSync
+cluster
+columns
+computeSecret
 concat
-configurable
-confirm
+config
+connect
+connection
+connections
 console
-const
-constructor
-containsNode
-content
-contentDocument
-contentWindow
 continue
-controllers
-cookie
-cookieEnabled
-cos
-cpuClass
-createAttribute
-createCaption
-createDocumentFragment
-createElement
-createElementNS
-createEvent
-createNSResolver
-createRange
-createTFoot
-createTHead
-createTextNode
+copy
+cpus
+create
+createCipher
+createCipheriv
+createClient
+createConnection
+createContext
+createCredentials
+createDecipher
+createDecipheriv
+createDeflate
+createDeflateRaw
+createDiffieHellman
+createGunzip
+createGzip
+createHash
+createHmac
+createInflate
+createInflateRaw
+createInterface
+createReadStream
+createScript
+createSecurePair
+createServer
+createSign
+createSocket
+createUnzip
+createVerify
+createWriteStream
 crypto
-cssRules
-ctrlKey
-current
-currentTarget
-dblclick
-debugger
-decodeURI
-decodeURIComponent
-default
-defaultCharset
-defaultStatus
-defaultView
-defineProperty
-delegate
-delete
-deleteCaption
-deleteFromDocument
-deleteRow
-deleteTFoot
-deleteTHead
-description
-designMode
-detail
-deviceXDPI
-deviceYDPI
+cwd
+data
+debug
+decode
+deepEqual
+deflate
+deflateRaw
+delimiter
+destroy
+dgram
+digest
 dir
-directories
-dispatchEvent
-display
-do
-doctype
-document
-documentElement
+dirname
+disconnect
+dispose
+dns
+doesNotThrow
 domain
-dump
-elements
-else
-embeds
-encodeURI
-encodeURIComponent
-encoding
-enctype
-enumerable
+drain
+dropMembership
+emit
+encode
+end
+endianness
+env
+equal
+error
 escape
-eval
-evaluate
-event
-eventPhase
-every
+events
 exec
-execCommand
-exp
-explicitOriginalTarget
-export
-extend
-false
-fgColor
-fileName
-filter
-finally
-find
-firstChild
-fixed
-floor
-focus
-focusNode
-focusOffset
-font
-fontFamily
-fontSize
-fontSmoothingEnabled
-fontStretch
-fontStyle
-fontVariant
-fontWeight
-fontcolor
-fontsize
-for
-forEach
-forms
-forward
-frame
-frameElement
-frames
-freeze
-from
-fromCharCode
-fromElement
-function
-galleryImg
-getAttention
-getAttribute
-getAttributeNS
-getAttributeNode
-getAttributeNodeNS
-getBoundingClientRect
-getComputedStyle
-getDate
-getDay
-getElementById
-getElementsByClassName
-getElementsByName
-getElementsByTagName
-getElementsByTagNameNS
-getFullYear
-getHours
-getJSON
-getMilliseconds
-getMinutes
-getMonth
-getRangeAt
-getSeconds
-getSelection
-getTime
-getTimezoneOffset
-getUTCDate
-getUTCDay
-getUTCFullYear
-getUTCHours
-getUTCMilliseconds
-getUTCMinutes
-getUTCMonth
-getUTCSeconds
-getYear
+execFile
+execPath
+exists
+existsSync
+exit
+exports
+extensions
+extname
+fail
+fchmod
+fchmodSync
+fchown
+fchownSync
+filename
+fill
+final
+finish
+flush
+foo
+fork
+format
+freemem
+fs
+fstat
+fstatSync
+fsync
+fsyncSync
+ftruncate
+ftruncateSync
+futimes
+futimesSync
+generateKeys
+get
+getCipher
+getCiphers
+getConnections
+getDiffieHellman
+getGenerator
+getHashes
+getHeader
+getPeerCertificate
+getPrime
+getPrivateKey
+getPublicKey
+getgid
+getgroups
+getuid
 global
-go
-hasAttribute
-hasAttributeNS
-hasAttributes
-hasChildNodes
-hasClass
-hasOwnProperty
-hash
-height
-history
-home
-host
+globalAgent
+gunzip
+gzip
+headers
+headersSent
 hostname
-href
-hspace
+hrtime
+http
+httpVersion
+https
 id
-if
-ignoreCase
-images
-implementation
-import
-importNode
-in
-index
-indexOf
-initEvent
-initKeyEvent
-initMouseEvent
-initUIEvent
-innerHTML
-innerHeight
-innerWidth
-input
-insertAfter
-insertBefore
-insertRow
-insertRule
-insertAdjacentHTML
-instanceof
-isChar
-isCollapsed
-isFinite
-isInteger
-isMap
-isNaN
-isPrototypeOf
-isSafeInteger
-italics
-item
-javaEnabled
+ifError
+inflate
+inflateRaw
+info
+inherits
+initgroups
+inspect
+intercept
+isArray
+isBuffer
+isDate
+isEncoding
+isError
+isIP
+isIPv4
+isIPv6
+isMaster
+isRaw
+isRegExp
+isWorker
+isatty
 join
-keyCode
-label
-lang
-language
-lastChild
-lastIndex
-lastIndexOf
-lastModified
-layerX
-layerY
-left
+kill
+lchmod
+lchmodSync
+lchown
+lchownSync
 length
-lineNumber
+line
 link
-linkColor
-links
-loadOverlay
-localName
-location
-locationbar
+linkSync
+listen
+listenerCount
+listeners
+listening
+loadavg
+loaded
+localAddress
+localPort
 log
-logicalXDPI
-logicalYDPI
-lowsrc
-map
-match
-max
-menubar
+lookup
+lstat
+lstatSync
+maxConnections
+maxHeadersCount
+maxSockets
+maxTickDepth
+members
+memoryUsage
 message
-metaKey
 method
-mimeTypes
-min
-mousemove
-mouseout
-mouseover
-moveBy
-moveTo
-multiline
-name
-nameProp
-namespaceURI
-navigate
-navigator
-new
-nextSibling
-nodeName
-nodeType
-nodeValue
+mkdir
+mkdirSync
+module
+net
+networkInterfaces
+newListener
+newSession
+nextTick
 normalize
-now
-number
-offsetHeight
-offsetLeft
-offsetParent
-offsetTop
-offsetWidth
-offsetX
-offsetY
-onAbort
-onAfterPrint
-onBeforeCopy
-onBeforeCut
-onBeforePaste
-onBeforePrint
-onBeforeUnload
-onBlur
-onChange
-onClick
-onContextMenu
-onCopy
-onCut
-onDblClick
-onDrag
-onDragEnd
-onDragEnter
-onDragLeave
-onDragOver
-onDragStart
-onDrop
-onError
-onFinish
-onFocus
-onFocusIn
-onFocusOut
-onHelp
-onKeyDown
-onKeyPress
-onKeyUp
-onLine
-onLoad
-onMouseDown
-onMouseEnter
-onMouseLeave
-onMouseMove
-onMouseOut
-onMouseOver
-onMouseUp
-onMouseWheel
-onMove
-onMoveEnd
-onMoveStart
-onPaste
-onReadyStateChange
-onReset
-onResize
-onResizeEnd
-onResizeStart
-onScroll
-onSelect
-onSelectStart
-onSelectionChange
-onStart
-onStop
-onSubmit
-onUnload
-onabort
-onblur
-onchange
-onclick
-onclose
-ondblclick
-ondragdrop
-onerror
-onfocus
-onkeydown
-onkeypress
-onkeyup
-onload
-onmousedown
-onmousemove
-onmouseout
-onmouseover
-onmouseup
-onpaint
-onreset
-onresize
-onscroll
-onselect
-onsubmit
-onunload
+notDeepEqual
+notEqual
+notStrictEqual
+on
+once
+online
 open
-openDialog
-opener
-opera
-opsProfile
-originalTarget
-oscpu
-outerHeight
-outerWidth
-ownerDocument
-pageX
-pageXOffset
-pageY
-pageYOffset
+openSync
+os
 parent
-parentNode
-parentsUntil
 parse
-parseFloat
-parseInt
-pathname
-personalbar
-pixelDepth
-pkcs11
+path
+pause
+pbkdf2
+pbkdf2Sync
+pid
+pipe
 platform
-plugins
-pop
-port
-pow
-preference
-prefix
-prepend
-prependTo
-preventBubble
-preventCapture
-preventDefault
-previousElementSibling
-previousSibling
 print
-product
-productSub
+process
 prompt
-propertyIsEnumerable
-propertyName
-protocol
-prototype
+pseudoRandomBytes
+pump
+punycode
 push
-pushState
-queryCommandEnabled
-queryCommandIndeterm
-queryCommandState
-queryCommandValue
-querySelector
-querySelectorAll
-random
-rangeCount
-reduce
-reduceRight
-referrer
-relatedTarget
-releaseEvents
-reload
-removeAllRanges
-removeAttribute
-removeAttributeNS
-removeAttributeNode
-removeChild
-removeClass
-removeData
-removeEventListener
-removeRange
-replace
-replaceChild
-replaceState
+puts
+querystring
+question
+quux
+randomBytes
+read
+readDoubleBE
+readDoubleLE
+readFile
+readFileSync
+readFloatBE
+readFloatLE
+readInt16BE
+readInt16LE
+readInt32BE
+readInt32LE
+readInt8
+readSync
+readUInt16BE
+readUInt16LE
+readUInt32BE
+readUInt32LE
+readUInt8
+readable
+readdir
+readdirSync
+readline
+readlink
+readlinkSync
+realpath
+realpathSync
+ref
+relative
+release
+remoteAddress
+remotePort
+remove
+removeAllListeners
+removeHeader
+removeListener
+rename
+renameSync
+request
+requests
 require
 reset
-resizeBy
-resizeTo
-responseText
-return
+resize
+resolve
+resolve4
+resolve6
+resolveCname
+resolveMx
+resolveNs
+resolveSrv
+resolveTxt
+response
+resume
+resumeSession
 reverse
-round
+rmdir
+rmdirSync
 rows
-rules
-screen
-screenLeft
-screenTop
-screenX
-screenY
-scroll
-scrollBy
-scrollByLines
-scrollByPages
-scrollHeight
-scrollIntoView
-scrollLeft
-scrollMaxX
-scrollMaxY
-scrollTo
-scrollTop
-scrollWidth
-scrollX
-scrollY
-scrollbars
-search
-securityPolicy
-selectAllChildren
-selectedStylesheetSet
-selectionLanguageChange
-selectorText
-self
-setAttribute
-setAttributeNS
-setAttributeNode
-setAttributeNodeNS
-setDate
-setFullYear
-setHours
+run
+runInContext
+runInNewContext
+runInThisContext
+secure
+secureConnect
+secureConnection
+send
+sendDate
+sep
+setAutoPadding
+setBroadcast
+setEncoding
+setHeader
+setImmediate
 setInterval
-setMilliseconds
-setMinutes
-setMonth
-setSeconds
-setTime
+setKeepAlive
+setMaxListeners
+setMulticastLoopback
+setMulticastTTL
+setNoDelay
+setPrivateKey
+setPrompt
+setPublicKey
+setRawMode
+setSocketKeepAlive
+setTTL
 setTimeout
-setUTCDate
-setUTCFullYear
-setUTCHours
-setUTCMilliseconds
-setUTCMinutes
-setUTCMonth
-setUTCSeconds
-setYear
-shift
-shiftKey
-sidebar
+setgid
+setgroups
+settings
+setuid
+setup
+setupMaster
 sign
-sin
-sizeToContent
 slice
-small
-snapshotItem
-snapshotLength
-some
-sort
-source
-sourceIndex
-splice
-split
-sqrt
-src
-srcElement
-stack
-status
-statusbar
-stop
-stopPropagation
-strict
-strike
+socket
+sockets
+spawn
+start
+stat
+statSync
+statusCode
+stderr
+stdin
+stdout
+stream
+strictEqual
 stringify
-style
-styleSheets
-sub
-submit
-substr
-substring
-summary
-sup
-supports
-switch
-systemLanguage
-tBodies
-tFoot
-tHead
-tabIndex
-tagName
-taintEnabled
-tan
-target
-test
-textContent
-this
-throw
-timeStamp
+suicide
+symlink
+symlinkSync
+throws
+time
+timeEnd
+timeout
 title
-toDateString
-toElement
-toExponential
-toFixed
-toGMTString
-toLocaleDateString
-toLocaleLowerCase
-toLocaleString
-toLocaleTimeString
-toLocaleUpperCase
-toLowerCase
-toPrecision
-toSource
+tls
+tmpdir
+toASCII
+toJSON
 toString
-toTimeString
-toUTCString
-toUpperCase
-toolbar
-top
-true
-trunc
-try
+toUnicode
+totalmem
+trace
+trailers
+truncate
+truncateSync
 type
-typeof
-undefined
+ucs2
+umask
+uncaughtException
 unescape
-uniqueID
+unlink
+unlinkSync
+unpipe
+unref
 unshift
-unwatch
-updateCommands
-updateInterval
-use
-useMap
-userAgent
-userLanguage
-userProfile
-value
-valueOf
-var
-vendor
-vendorSub
-view
-vlinkColor
-void
-vspace
+unwatchFile
+unzip
+update
+upgrade
+uptime
+url
+util
+utimes
+utimesSync
+verify
+version
+versions
+vm
+warn
 watch
-wheelDelta
-which
-while
-width
-window
-with
-writable
+watchFile
+worker
+workers
+wrap
 write
-writeln
+zlib
+=========================
+abstract	arguments	boolean	break	byte
+case	catch	char	class	const
+continue	debugger	default	delete	do
+double	else	enum	eval	export
+extends	false	final	finally	float
+for	function	goto	if	implements
+import	in	instanceof	int	interface
+let	long	native	new	null
+package	private	protected	public	return
+short	static	super	switch	synchronized
+this	throw	throws	transient	true
+try	typeof	var	void	volatile
+while	with	yield
+
+Array	Date	eval	function	hasOwnProperty
+Infinity	isFinite	isNaN	isPrototypeOf	length
+Math	NaN	name	Number	Object
+prototype	String	toString	undefined	valueOf
+
+alert	all	anchor	anchors	area
+assign	blur	button	checkbox	clearInterval
+clearTimeout	clientInformation	close	closed	confirm
+constructor	crypto	decodeURI	decodeURIComponent	defaultStatus
+document	element	elements	embed	embeds
+encodeURI	encodeURIComponent	escape	event	fileUpload
+focus	form	forms	frame	innerHeight
+innerWidth	layer	layers	link	location
+mimeTypes	navigate	navigator	frames	frameRate
+hidden	history	image	images	offscreenBuffering
+open	opener	option	outerHeight	outerWidth
+packages	pageXOffset	pageYOffset	parent	parseFloat
+parseInt	password	pkcs11	plugin	prompt
+propertyIsEnum	radio	reset	screenX	screenY
+scroll	secure	select	self	setInterval
+setTimeout	status	submit	taint	text
+textarea	top	unescape	untaint	window
+
+onblur	onclick	onerror	onfocus
+onkeydown	onkeypress	onkeyup	onmouseover
+onload	onmouseup	onmousedown	onsubmit
+SyntaxError ReferenceError RangeError TypeError URLError EvalError
+
+html document location navigator screen history frames
+forms location anchors images links frameset
+
+Element Text Attr nodeName nodeType nodeValue ownerDocument firstChild lastChild 
+childNodes parentNode previousSibling nextSibling hasChildNodes attributes 
+appendChild removeChild replaceChild insertBefore getElementById getElementByName 
+getElementsByTagName getAttributeNode getAttribute setAttribute attrValue 
+
+innerHTML innerText outerHTML outerText removeAttribute removeAttributeNode
+
+createElement createTextNode attachEvent detachEvent addHandler removeHandler EventUntil
+click dbclick mousedown mouseup mouseover mouseout mousemove
+keydown keypress keyup
+load unload abort error select change submit reset resize scroll focus blur
+
+addEventListener removeEventListener defaultStatus
+createPopup moveBy moveTo print resizeBy resizeTo external iframe
+forward go
+
+colorDepth availWidth availHeight AddFavorite
+
+appCodeName appName appMinorVersion cpuClass platform plugins opsProfile
+userProfile systemLanguage userLanguage appVersion userAgent onLine cookieEnabled
+mimeTypes
+
+cookie title domain bgColor fgColor linkColor
+alinkColor vlinkColor fileCreatedDate fileModifiedDate lastModified
+fileSize charset  referrer styleSheets cssRules write
+writeln alink vlink 
+
+
+topMargin leftMargin rightMargin bottomMargin background href
+portocol host hostname port pathname search hash assign replace
+reload selection encoding target 
+
+accessKey add className clientHeight clientWidth cloneNode 
+compareDocumentPosition contentEditable firstChild
+getFeature getUserData hidden hasAttribute hasAttributes
+isContentEditable isDefaultNamespace isEqualNode isSameNode
+isSupported namespaceURI normalize offsetHeight offsetWidth offsetLeft
+offsetParent  offsetTop ownerDocument parentNode previousSibling
+remove removeAttributeNode removeChild replaceChild scrollHeight
+scrollLeft scrollTop scrollWidth setAttributeNode setIdAttribute
+setIdAttributeNode setUserData toggle tabIndex tagName textContent toString
+item length contentWindow TableRow TableCell
+
+onerror onbefunload onafterprint onbeforeprint onhaschange
+onload onmessage onoffline ononline onpagehide onpageshow
+onpopstate  onredo onresize onstorage onundo onunload
+
+onblur onchange  oncontextmenu onfocus onformchange onforminput oninput
+oninvalid onreset onselect onsubmit onpropertychange
+
+ontouchstart ontouchmove ontouchend ontouchcancel
+
+querySelectorAll querySelector screenX screenY offsetX offsetY
+stopPropagation stopEvent preventDefault createDocumentFragment
+
+jQuery animated contains password radio checkbox submit reset
+button file enabled disabled checked selected escapeSelector
+callback ready each forEach selector removeData
+queue dequeue clearQueue noConflict ajax getJSON getScript
+ajaxComplete ajaxError ajaxSend ajaxStart ajaxStop ajaxSuccess
+ajaxPrefilter ajaxSetup serialize serializeArray
+slideDown slideUp slideToggle fadeIn fadeOut fadeToggle
+delay finish grep when makeArray map toArray merge
+uniqueSort unique parseJSON parseXML isFunction isEmptyObject
+isPlainObject isWindow isNumberic param currentTarget
+delegateTarget isDefaultPrevented stopImmediatePropagation
+isPropagationStopped namespace pageX pageY relatedTarget
+stopImmediatePropagation stopPropagation timeStamp
+disable empty fire fired fireWith lock locked 
+removeAttr removeProp addClass removeClass toggleClass
+appendTo append prepend prependTo after before insertAfter wrap unwrap
+wrapAll wrapInner replaceWith replaceAll detach clone 
+first last filter not slice children closet find next nextAll
+nextUntil parents parentsUntil prev prevAll prevUntil siblings
+addBack content end css cssHooks offset position  height width
+on off one trigger triggerHandler hover toggle
+focusin focusout select done fail reject rejectWith resolve resolveWith
+promise always notify notifyWith progress state
+
+React require Component  PureComponent createFactory cloneElement
+isValidElement Children Fragment props shouldComponentUpdate
+forceUpdate addons cloneWithProps fragment only
+ReactDOM render hydrate unmountComponentAtNode findDOMNode
+createPortal ReactDOMServer renderToString renderToStaticMarkup
+renderToNodeStream renderToStaticNodeStream dangerouslySetInnerHTML
+htmlFor onChange backgroundImage
+
+accept acceptCharset accessKey action allowFullScreen alt async autoComplete
+autoFocus autoPlay capture cellPadding cellSpacing challenge charSet checked
+cite classID className colSpan cols content contentEditable contextMenu controls
+controlsList coords crossOrigin data dateTime default defer dir disabled
+download draggable encType form formAction formEncType formMethod formNoValidate
+formTarget frameBorder headers height hidden high href hrefLang htmlFor
+httpEquiv icon id inputMode integrity is keyParams keyType kind label lang list
+loop low manifest marginHeight marginWidth max maxLength media mediaGroup method
+min minLength multiple muted name noValidate nonce open optimum pattern
+placeholder poster preload profile radioGroup readOnly rel required reversed
+role rowSpan rows sandbox scope scoped scrolling seamless selected shape size
+sizes span spellCheck src srcDoc srcLang srcSet start step style summary
+tabIndex target title type useMap value width wmode wrap
+
+accentHeight accumulate additive alignmentBaseline allowReorder alphabetic
+amplitude arabicForm ascent attributeName attributeType autoReverse azimuth
+baseFrequency baseProfile baselineShift bbox begin bias calcMode capHeight
+clip clipPath clipPathUnits clipRule colorInterpolation
+colorInterpolationFilters colorProfile colorRendering contentScriptType
+contentStyleType cursor decelerate descent diffuseConstant direction
+display divisor dominantBaseline dur edgeMode elevation enableBackground
+end exponent externalResourcesRequired fill fillOpacity fillRule filter
+filterRes filterUnits floodColor floodOpacity focusable fontFamily fontSize
+fontSizeAdjust fontStretch fontStyle fontVariant fontWeight format
+glyphName glyphOrientationHorizontal glyphOrientationVertical glyphRef
+gradientTransform gradientUnits hanging horizAdvX horizOriginX ideographic
+imageRendering intercept kernelMatrix kernelUnitLength
+kerning keyPoints keySplines keyTimes lengthAdjust letterSpacing lightingColor
+limitingConeAngle local markerEnd markerHeight markerMid markerStart
+markerUnits markerWidth mask maskContentUnits maskUnits mathematical mode
+numOctaves offset opacity operator order orient orientation origin overflow
+overlinePosition overlineThickness paintOrder panose1 pathLength
+patternContentUnits patternTransform patternUnits pointerEvents points
+pointsAtX pointsAtY pointsAtZ preserveAlpha preserveAspectRatio primitiveUnits
+radius refX refY renderingIntent repeatCount repeatDur requiredExtensions
+requiredFeatures restart result rotate scale seed shapeRendering slope
+spacing specularConstant specularExponent speed spreadMethod startOffset
+stdDeviation stemh stemv stitchTiles stopColor stopOpacity
+strikethroughPosition strikethroughThickness string stroke strokeDasharray
+strokeDashoffset strokeLinecap strokeLinejoin strokeMiterlimit strokeOpacity
+strokeWidth surfaceScale systemLanguage tableValues targetX targetY textAnchor
+textDecoration textLength textRendering to transform u1 u2 underlinePosition
+underlineThickness unicode unicodeBidi unicodeRange unitsPerEm vAlphabetic
+vHanging vIdeographic vMathematical values vectorEffect version vertAdvY
+vertOriginX vertOriginY viewBox viewTarget visibility widths wordSpacing
+writingMode xChannelSelector xHeight xlinkActuate xlinkArcrole
+xlinkHref xlinkRole xlinkShow xlinkTitle xlinkType xmlns xmlnsXlink xmlBase
+xmlLang xmlSpace yChannelSelector zoomAndPan
+
+boolean bubbles
+boolean cancelable
+DOMEventTarget currentTarget
+boolean defaultPrevented
+number eventPhase
+boolean isTrusted
+DOMEvent nativeEvent
+void preventDefault
+boolean isDefaultPrevented
+void stopPropagation
+boolean isPropagationStopped
+DOMEventTarget target
+number timeStamp
+string type SyntheticEvent onCopy onCut onPaste
+DOMDataTransfer clipboardData onCompositionEnd onCompositionStart onCompositionUpdate
+
+boolean altKey
+number charCode
+boolean ctrlKey
+boolean getModifierState(key)
+string key
+number keyCode
+string locale
+number location
+boolean metaKey
+boolean repeat
+boolean shiftKey
+number which
+
+onClick onContextMenu onDoubleClick onDrag onDragEnd onDragEnter onDragExit
+onDragLeave onDragOver onDragStart onDrop onMouseDown onMouseEnter onMouseLeave
+onMouseMove onMouseOut onMouseOver onMouseUp onScroll number detail
+DOMAbstractView view onWheel 
+number deltaMode
+number deltaX
+number deltaY
+number deltaZ
+
+onAbort onCanPlay onCanPlayThrough onDurationChange onEmptied onEncrypted
+onEnded onError onLoadedData onLoadedMetadata onLoadStart onPause onPlay
+onPlaying onProgress onRateChange onSeeked onSeeking onStalled onSuspend
+onTimeUpdate onVolumeChange onWaiting
+
+onAnimationStart onAnimationEnd onAnimationIteration
+string animationName
+string pseudoElement
+float elapsedTime
+
+onTransitionEnd
+string propertyName
+string pseudoElement
+float elapsedTime
+onToggle
+
+isElement isElementOfType isDOMComponent 
+isCompositeComponent isCompositeComponentWithType
+findAllInRenderedTree scryRenderedDOMComponentsWithClass
+findRenderedDOMComponentWithClass  scryRenderedDOMComponentsWithTag
+findRenderedDOMComponentWithTag scryRenderedComponentsWithType
+findRenderedComponentWithType
+
+
+shallowRenderer replaceState setState setProps replaceProps forceUpdate
+findDOMNode isMounted component componentWillMount componentDidMount
+componentWillReceiveProps shouldComponentUpdate
+componentWillUpdate componentDidUpdate componentWillUnmount getInitialState
+handleChange  handleClick getDefaultProps
+
+draggable dropzone spellcheck tabindex
+oncontextmenu onforminput oninvalid
+
+canvas fillStyle strokeStyle shadowColor shadowBlur shadowOffsetX shadowOffsetY
+createLinearGradient createPattern createRadialGradient addColorStop
+lineCap lineJoin lineWidth miterLimit rect fillRect strokeRect clearRect
+clearRect stroke beginPath moveTo closePath lineTo clip quadraticCurveTo
+bezierCurveTo  arc arcTo isPointInPath
+scale rotate translate transform setTransform
+font textAlign textBaseline fillText strokeText measureText
+drawImage createImageData getImageData putImageData globalAlpha
+globalCompositeOperation save restore createEvent getContext toDataURL
+
+addTextTrack canPlayType load play pause
+audioTracks autoplay buffered controller controls crossOrigin
+currentSrc	currentTime	defaultMuted	defaultPlaybackRate
+duration	ended	loop	mediaGroup	muted	networkState
+paused	playbackRate	played	preload	readyState	seekable
+sandbox seeking	startDate	textTracks	videoTracks	volume	
