@@ -35,13 +35,13 @@ function! s:AutoLoadDict(filetype)
   " 字典存在
   if findfile(s:dictPath) != ''
     " echo 'load fileType:'.a:filetype 'path:'.s:dictPath
-    silent execute 'setlocal dictionary+='.fnameescape(s:dictPath)
+    silent! execute 'setlocal dictionary+='.fnameescape(s:dictPath)
   endif
 
   let s:childFileTypeList = get(g:vim_dict_config, a:filetype, [])
   " echo 's:childFileTypeList == ' s:childFileTypeList
   for nr in s:childFileTypeList
-    silent call s:AutoLoadDict(nr)
+    silent! call s:AutoLoadDict(nr)
   endfor
 endfunction
 
